@@ -1,0 +1,184 @@
+.corpao
+    {
+    background: url(summer.webp) repeat-y; 
+    -webkit-background-size: cover;
+    width: 100%;
+    height: 100%;
+    height:auto;
+    margin:0 ;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:100%;
+    border:30px ridge #f04045;
+    }
+    .container
+    {
+    width:100%;
+    min-width:1000px;
+    height:auto;
+    background: url(summer.webp) repeat-y; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:100%;
+    border:30px ridge #f04045; 
+    }
+    .topo
+    {
+        background:linear-gradient(#ff7e71, #ffc39a);
+        display:flex;
+        text-align:left;
+        padding:30px;
+        border: 1px solid aliceblue;
+        margin: 0PX;
+        position: relative;
+        
+    }
+    .topo a
+    {
+        background:linear-gradient(#f04045, #ffc39a);
+        background-size:100%;
+        font-size: 50px; 
+        padding-top:15px;
+        padding-left:10px ;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        justify-content: center;
+        color: aliceblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        cursor: pointer;
+        float: inline-start;
+        margin-top:10px ;
+        transition: 2s ;
+    }
+    .topo a:hover, a:focus
+    {background:linear-gradient(#430665, #272390);}
+    @font-face {
+        font-family:Starborn;
+        src: url(fonts/Starborn.ttf);
+    }
+    main
+    {
+        position: relative;
+        top:20px ;
+    }
+    .ativ
+    {
+        background:linear-gradient(#f04045, #ffc39a);
+        width: 1200px ;
+        height:500px;
+        border: 1px solid aliceblue;
+        border-radius: 30px;
+        text-align: center ;
+        position: relative;
+        left: 50px;
+        animation-name: ativ;
+        animation-duration:4s ;
+        animation: bg-animation 5s infinite alternate;
+        animation-iteration-count: infinite;
+        display: flex;
+        justify-content: center;
+    }
+    .l1
+    {
+        position:relative;
+        top: 260px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: aliceblue;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        font-size: 20px;
+        text-decoration: none;
+        right:px ;
+    }
+    .l2
+    {
+        position:relative;
+        top: 220px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: aliceblue;
+        top:260px;
+        font-size: 25px;
+        text-decoration: none;
+    }
+    .l3
+    {
+        position:relative;
+        top: 260px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: aliceblue;
+        font-size: 25px;
+        border-radius: 20px;
+        text-decoration: none;
+        background-image:url(java.png);
+        background-size: 250px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .al1
+    {
+        margin: 0;
+        margin-top: 100px;
+        margin-right: 800px;
+        display: inline-flexbox;
+        justify-content: center;
+        border-radius: 50px;
+        border: 1px solid aliceblue;
+        width: 250px;
+        height: 300px;
+        position: absolute;
+        background-size: cover;
+        background-position: center;
+        background-image: url(ht.png);
+    }
+    .al2
+    {
+        
+        border-radius: 50px;
+        margin-top: 100px;
+        border: 1px solid aliceblue;
+        width: 250px;
+        height: 300px;
+        position: absolute;
+        background-size: cover;
+        background-position: center;
+        background-image: url(c.jpg);
+        display: inline-flexbox;
+        justify-content: center;
+    }
+    .al3
+    {
+        border-radius: 50px;
+        margin-top: 100px;
+        margin-left: 800px;
+        border: 1px solid aliceblue;
+        width: 250px;
+        height: 300px;
+        position:absolute;
+        background-size: cover;
+        background-position: center;
+        background-image: url(java.png);
+        display: inline-flexbox;
+        justify-content: center;
+    }
+    .logo
+    {
+        position: auto;
+        display: inline;
+        margin:0 ;
+        justify-content: center;
+    }
+    .down
+    {
+        width:80%;
+        height: 150px;
+        display: flex;
+        background:linear-gradient(#f04045, #ffc39a);
+        position: relative;
+        border-radius: 50px;
+        border: 1px solid aliceblue;
+        padding:15px 200px;
+        margin-top: 100px;
+    }

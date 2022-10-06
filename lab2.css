@@ -1,0 +1,35 @@
+body
+{
+	background-color:rgb(2, 27, 38);
+	font-family:sans-serif;  
+}
+main
+{
+	background-color:#fff; 
+}
+header
+{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+}
+blockquote, main footer
+{
+	background-color:rgb(195, 227, 245);
+}
+nav, ul
+{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between; 
+	list-style:none;
+	width:300px;  
+}
+nav, li
+{
+	padding:20px;                
+}
+nav, a
+{
+	 color:white;
+}

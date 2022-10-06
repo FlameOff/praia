@@ -1,0 +1,150 @@
+.corpao
+    {
+    background: url(summer.webp) repeat-y; 
+    -webkit-background-size: cover;
+    background-size: 1440px 1080px;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    }
+    .topo
+    {
+        background:linear-gradient(#ff7e71, #ffc39a);
+        display:flex;
+        text-align:left;
+        padding: 10px;
+        border: 1px solid aliceblue;
+        margin: 0PX;
+        position: relative;
+        
+    }
+    .topo a
+    {
+        background:linear-gradient(#f04045, #ffc39a);
+        font-size: 20px; 
+        padding: 8px 10px;
+        color: aliceblue;
+        font-family:Starborn;
+        text-decoration: none;
+        cursor: pointer;
+        float: left;
+        transition: 2s ;
+    }
+    .topo a:hover, a:focus
+    {background:linear-gradient(#430665, #272390);}
+    @font-face {
+        font-family:Starborn;
+        src: url(fonts/Starborn.ttf);
+    }
+    main
+    {
+        position: relative;
+        top:20px ;
+    }
+    .ativ
+    {
+        background:linear-gradient(#f04045, #ffc39a);
+        display:flexbox;
+        width: 1200px ;
+        height:500px;
+        border: 1px solid aliceblue;
+        border-radius: 30px;
+        text-align: center ;
+        position: relative;
+        left: 50px;
+        animation-name: ativ;
+        animation-duration:4s ;
+        animation: bg-animation 5s infinite alternate;
+        animation-iteration-count: infinite;
+    }
+    .l1
+    {
+        position:relative;
+        top: 260px;
+        font-family:Starborn;
+        color: aliceblue;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        font-size: 20px;
+        text-decoration: none;
+        right:px ;
+    }
+    .l2
+    {
+        position:relative;
+        top: 220px;
+        font-family:Starborn;
+        color: aliceblue;
+        top:260px;
+        font-size: 25px;
+        text-decoration: none;
+    }
+    .l3
+    {
+        position:relative;
+        top: 260px;
+        font-family:Starborn;
+        color: aliceblue;
+        font-size: 25px;
+        border-radius: 20px;
+        text-decoration: none;
+        background-image:url(java.png);
+        background-size: 250px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .al1
+    {
+        top: 100px;
+        left: 50px;
+        border-radius: 50px;
+        border: 1px solid aliceblue;
+        width: 250px;
+        height: 300px;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-image: url(ht.png);
+    }
+    .al2
+    {
+        bottom: 200px;
+        left: 470px;
+        border-radius: 50px;
+        border: 1px solid aliceblue;
+        width: 250px;
+        height: 300px;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-image: url(c.jpg);
+    }
+    .al3
+    {
+        bottom:500px;
+        left: 900px;
+        border-radius: 50px;
+        border: 1px solid aliceblue;
+        width: 250px;
+        height: 300px;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-image: url(java.png);
+    }
+    .logo
+    {
+        margin-left: 350px;
+    }
+    .down
+    {
+        width: 1290px;
+        height: 150px;
+        display: grid;
+        background:linear-gradient(#f04045, #ffc39a);
+        position:relative;
+        border-radius: 50px;
+        border: 1px solid aliceblue;
+        padding:15px 200px;
+    }
