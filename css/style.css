@@ -1,36 +1,22 @@
-.corpao
+body
     {
-    background: url(summer.webp) repeat-y; 
-    -webkit-background-size: cover;
-    width: 100%;
-    height: 100%;
-    height:auto;
-    margin:0 ;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size:100%;
-    border:30px ridge #f04045;
-    }
-    .container
-    {
-    width:100%;
-    min-width:1000px;
-    height:auto;
-    background: url(summer.webp) repeat-y; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size:100%;
-    border:30px ridge #f04045; 
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        background:linear-gradient(#ffc39a ,#ff7f72, #7fb882, #272390);
+        background-size:3840px 2160px;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     .topo
     {
         background:linear-gradient(#ff7e71, #ffc39a);
         display:flex;
         text-align:left;
-        padding:30px;
+        width:1280px;
         border: 1px solid aliceblue;
         margin: 0PX;
+        padding: 20px;
         position: relative;
         
     }
@@ -38,18 +24,12 @@
     {
         background:linear-gradient(#f04045, #ffc39a);
         background-size:100%;
-        font-size: 50px; 
-        padding-top:15px;
-        padding-left:10px ;
-        padding-right: 10px;
-        padding-bottom: 15px;
-        justify-content: center;
+        font-size: 25px; 
         color: aliceblue;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family:Starborn;
         text-decoration: none;
         cursor: pointer;
-        float: inline-start;
-        margin-top:10px ;
+        padding: 10px;
         transition: 2s ;
     }
     .topo a:hover, a:focus
@@ -71,18 +51,17 @@
         border: 1px solid aliceblue;
         border-radius: 30px;
         text-align: center ;
-        position: relative;
+        position:relative;
         left: 50px;
         animation-name: ativ;
         animation-duration:4s ;
         animation: bg-animation 5s infinite alternate;
         animation-iteration-count: infinite;
         display: flex;
-        justify-content: center;
     }
     .l1
     {
-        position:relative;
+        position:absolute;
         top: 260px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: aliceblue;
@@ -95,7 +74,7 @@
     }
     .l2
     {
-        position:relative;
+        position:absolute;
         top: 220px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: aliceblue;
@@ -105,7 +84,7 @@
     }
     .l3
     {
-        position:relative;
+        position:absolute;
         top: 260px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: aliceblue;
@@ -121,7 +100,7 @@
     {
         margin: 0;
         margin-top: 100px;
-        margin-right: 800px;
+        margin-left: 50px;
         display: inline-flexbox;
         justify-content: center;
         border-radius: 50px;
@@ -138,6 +117,7 @@
         
         border-radius: 50px;
         margin-top: 100px;
+        margin-left:450px ;
         border: 1px solid aliceblue;
         width: 250px;
         height: 300px;
@@ -152,7 +132,7 @@
     {
         border-radius: 50px;
         margin-top: 100px;
-        margin-left: 800px;
+        margin-left: 850px;
         border: 1px solid aliceblue;
         width: 250px;
         height: 300px;
@@ -172,13 +152,12 @@
     }
     .down
     {
-        width:80%;
+        width: 880px;
         height: 150px;
-        display: flex;
+        left: 10px;
+        display: grid;
         background:linear-gradient(#f04045, #ffc39a);
-        position: relative;
+        position:absolute;
         border-radius: 50px;
         border: 1px solid aliceblue;
         padding:15px 200px;
-        margin-top: 100px;
-    }
